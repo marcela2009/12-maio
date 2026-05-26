@@ -2,7 +2,7 @@
 
 :root {
     --cor-de-fundo: #1e1e1e;
-    --verde: #6fff57;
+    --verde: #2733e2;
     --branco: #ffffff;
     --botao-ativo: #3a375e;
     --botao-inativo: rgba(58, 55, 94, 0.5);
@@ -32,7 +32,7 @@ body {
 }
 
 .titulo-principal span {
-    color: var(--verde);
+    color: var(--azul);
 }
 
 .botao {
@@ -86,3 +86,4 @@ ativo {
   background-color: var(--botao-ativo);
   border-bottom: 4px solid var(--verde);
 }
+
