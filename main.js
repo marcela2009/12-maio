@@ -15,14 +15,14 @@ for (let i = 0; i < botoes.length; i++) {
 
 const tempos = [
     new Date("2026-11-30T00:00:00"),
-    new Date("2026-12-05T00:00:00"),
-    new Date("2026-12-18T00:00:00"),
-    new Date("2026-12-31T00:00:00")
+    new Date("2026-11-08T00:00:00"),
+    new Date("2027-01-18T00:00:00"),
+    new Date("2027-12-31T00:00:00")
 ];
 
 function calculaTempo(tempoObjetivo) {
     const agora = new Date();
-    const diferenca = tempoObjetivo - agora;
+    const diferenca = tempoO bjetivo - agora;
 
     if (diferenca <= 0) {
         return [0, 0, 0, 0];
