@@ -22,7 +22,7 @@ const tempos = [
 
 function calculaTempo(tempoObjetivo) {
     const agora = new Date();
-    const diferenca = tempoO bjetivo - agora;
+    const diferenca = tempoObjetivo - agora;
 
     if (diferenca <= 0) {
         return [0, 0, 0, 0];
